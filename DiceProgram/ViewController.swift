@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Dice Count is 5
+        print(#function)
     }
 
     @IBAction func rollButtonTapped(_ sender: UIButton) {
